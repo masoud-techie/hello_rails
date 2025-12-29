@@ -1,0 +1,19 @@
+current directory: /home/masoud/Documents/Learning/ruby/learn/rails/projects/hello_rails/vendor/bundle/ruby/3.2.0/gems/erb-6.0.1/ext/erb/escape
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /home/masoud/Documents/Learning/ruby/learn/rails/projects/hello_rails/vendor/bundle/ruby/3.2.0/gems/erb-6.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251229-113256-nlioul sitelibdir\=./.gem.20251229-113256-nlioul clean
+
+current directory: /home/masoud/Documents/Learning/ruby/learn/rails/projects/hello_rails/vendor/bundle/ruby/3.2.0/gems/erb-6.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251229-113256-nlioul sitelibdir\=./.gem.20251229-113256-nlioul
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/masoud/Documents/Learning/ruby/learn/rails/projects/hello_rails/vendor/bundle/ruby/3.2.0/gems/erb-6.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251229-113256-nlioul sitelibdir\=./.gem.20251229-113256-nlioul install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20251229-113256-nlioul/erb
+
+current directory: /home/masoud/Documents/Learning/ruby/learn/rails/projects/hello_rails/vendor/bundle/ruby/3.2.0/gems/erb-6.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251229-113256-nlioul sitelibdir\=./.gem.20251229-113256-nlioul clean
