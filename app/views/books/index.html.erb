@@ -4,13 +4,24 @@
 
 <h1>Books</h1>
 
-<div id="books">
+<table class="table id="books">
+<thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Link</th>
+    </tr>
   <% @books.each do |book| %>
-    <%= render book %>
-    <p>
-      <%= link_to "Show this book", book %>
-    </p>
+    
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><%= render book %></td>
+      <td><%= link_to "Show this book", book %></td>
+    </tr>
+  </tbody>
   <% end %>
-</div>
+</table>
 
 <%= link_to "New book", new_book_path %>

@@ -48,6 +48,9 @@
 
     <main class="flex-grow-1">
     <div class="container py-5 text-center">
+      <% if notice %>
+        <%= render 'layouts/alerts'%>
+      <% end %>
        <%= yield %>
     </div>
   </main>
